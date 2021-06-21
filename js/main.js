@@ -8,6 +8,10 @@ let video7 = document.getElementById("ubunifu")
 let video8 = document.getElementById("tailmonkey")
 let video9 = document.getElementById("cate")
 
+let vidNull={
+    name:"",
+    description:""
+}
 let vid1={
     name:"butterfly",
     description:""
@@ -49,7 +53,18 @@ let vid9={
      console.log("butterfly")
      let input =document.getElementById("input").value
      let inputVal = input.toLowerCase()
-     if (inputVal===vid1.name || inputVal===vid1.description){
+     if  (inputVal===vidNull.name || inputVal===vidNull.description){
+        video1.style.display="block"
+        video2.style.display="block"
+        video3.style.display="block"
+        video4.style.display="block"
+        video5.style.display="block"
+        video6.style.display="block"
+        video7.style.display="block"
+        video8.style.display="block"
+        video9.style.display="block"
+    }
+    else if (inputVal===vid1.name || inputVal===vid1.description){
          video1.style.display="block"
          video2.style.display="none"
          video3.style.display="none"
@@ -141,7 +156,8 @@ else if (inputVal===vid6.name || inputVal===vid6.description){
     video7.style.display="none"
     video8.style.display="none"
     video9.style.display="block"
-}else {
+}
+else {
     alert(`results not found....try searching words like, "monkey","united"or"kennar"`)
     video1.style.display="block"
     video2.style.display="block"
