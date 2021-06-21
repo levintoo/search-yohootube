@@ -141,5 +141,16 @@ else if (inputVal===vid6.name || inputVal===vid6.description){
     video7.style.display="none"
     video8.style.display="none"
     video9.style.display="block"
+}else {
+    alert(`results not found....try searching words like, "monkey","united"or"kennar"`)
+    video1.style.display="block"
+    video2.style.display="block"
+    video3.style.display="block"
+    video4.style.display="block"
+    video5.style.display="block"
+    video6.style.display="block"
+    video7.style.display="block"
+    video8.style.display="block"
+    video9.style.display="block"
 }
  }
