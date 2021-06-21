@@ -1,0 +1,17 @@
+.navbar{
+    margin-top: 10px;
+    max-height: fit-content;
+}
+.row{
+    float: left !important;
+    display: flex;
+    flex-direction: row;
+    max-height: fit-content;
+    max-width: fit-content;
+}
+.container,body{
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.2),rgba(0, 255, 0, 0.2), rgba(110, 108, 255, 0.2));
+}
+.col-4{
+    margin: 5px;
+}
